@@ -15,8 +15,8 @@ public class DbConnection {
 
     static final String db_name = "resimlibulmaca";
     static final String db_url = "jdbc:mysql://db4free.net:3306/" + db_name;
-    static final String user = "batu";
-    static final String pass = "5503610";
+    static final String user = "******";
+    static final String pass = "******";
    // static final String db_url = "jdbc:mysql://localhost:3306/" + db_name; 
     static public Connection getConnection() {
         Connection conn = null;
